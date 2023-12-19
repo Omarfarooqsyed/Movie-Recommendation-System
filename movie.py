@@ -2,7 +2,7 @@ import pandas as pd
 import difflib
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-movies_data = pd.read_csv('./movies project.csv')
+movies_data = pd.read_csv('# Give path of data file here')
 movies_data.head()
 movies_data.shape
 selected_features = ['genres', 'keywords', 'tagline', 'cast', 'director']
